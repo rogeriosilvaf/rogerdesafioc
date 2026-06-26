@@ -11,7 +11,8 @@ int main(){
     printf("insira peso\n");
     scanf("%f", &peso);
 
-    float result = altura * altura / peso;
+    float potencia = altura * altura;
+    float result = peso/potencia;
 
     printf("%f", result);
 
